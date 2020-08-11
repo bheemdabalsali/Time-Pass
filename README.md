@@ -3,16 +3,12 @@
 a=input('ENTER THE NAME OF THE FIRST PARTNER  :  ')
 b=input('ENTER THE NAME OF THE SECOND PARTNER  :  ')
 q=float(input('ENTER THE DATE OF PARTNERSHIP STARTING  :  '))
-# interest on capital//
 w=int(input('ENTER THE CAPITAL PRESENTED BY THE FIRST PARTNER :  '))
 e=int(input('ENTER THE CAPITAL PRESENTED BY THE SECOND PARTNER :  '))
-# interest on loan//
 r=int(input('ENTER THE LOAN AMOUNT OF THE FIRST PARTNER  :  '))
 u=int(input('ENTER THE LOAN AMOUNT OF THE SECOND PARTNER  :  '))
-# interest on loan//
 t=int(input('ENTER THE AMOUNT OF DRAWING BY THE FIRST PARTNER  :  '))
 t=int(input('ENTER THE AMOUNT OF DRAWING BY THE SECOND PARTNER  :  '))
-# interest on drawing//
 i=int(input('ENTER THE AMOUNT OF PROFIT // LOSS MADE BY THE FIRM  :  '))
 o=int(input('ENTER THE PROFIT SHARING RATIO FOR THE FIRST PARTNER  :  '))
 p=int(input('ENTER THE PROFIT SHARING RATIO FOR THE SECOND PARTNER  :  '))
