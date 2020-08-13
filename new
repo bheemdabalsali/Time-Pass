@@ -8,3 +8,12 @@ if h == 'profit'or'PROFIT':
     print('FIRST ENTRY ON CREDIT SIDE :  by profit & loss A/C(profit) // ', i)
     if h == 'loss':
         print('FIRST ENTRY ON CREDIT SIDE :  by profit & loss A/C(profit) // ', i)
+w=int(input('ENTER THE CAPITAL PRESENTED BY THE FIRST PARTNER  :  '))
+e=int(input('ENTER THE CAPITAL PRESENTED BY THE SECOND PARTNER  :  '))
+m=(input('SPECIFY IF THERE IS A PARTNERSHIP DEED PRESENT (yes/no) :  '))
+if m == 'yes'or'YES':
+    ba=int(input('PLEASE ENTER THE INTEREST ON CAPITAL AS PER PARTNERSHIP DEED'))
+    #ioc for the first partner.
+    print('This is the interest on drawing for ',a )
+    hj=(100/int(ba)+int(w))
+    print(hj)
