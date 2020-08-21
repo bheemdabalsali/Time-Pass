@@ -10,7 +10,10 @@ if h == 'profit' or 'PROFIT':
 i = int(input('ENTER THE AMOUNT WITHDRAWN BY THE FIRST PARTNER '))
 h = int(input('ENTER THE AMOUNT WITHDRAWN BY THE SECOND PARTNER '))
 k = int(input('enter the interest percentage on drawings as per the partnership deed(%)'))
-
+i %= k
+print('this is the interest on drawings for the first partner')
+h %= k
+print('this is the interest on drawings for the second partner')
 w = int(input('ENTER THE CAPITAL PRESENTED BY THE FIRST PARTNER  :  '))
 e = int(input('ENTER THE CAPITAL PRESENTED BY THE SECOND PARTNER  :  '))
 m = (input('SPECIFY IF THERE IS A PARTNERSHIP DEED PRESENT (yes/no) :  '))
