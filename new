@@ -23,4 +23,3 @@ if m == 'yes' or 'YES':
     print('This is the interest on drawing for ', a)
     hj = (100 / int(ba) + int(w))
     print(hj)
-
