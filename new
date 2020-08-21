@@ -1,19 +1,23 @@
-#THIS IS AN AUTOMATION PROGRAM FOR THE ENTRIES OF PARTNERSHIP FIRM.
-a=input('ENTER THE NAME OF THE FIRST PARTNER  :  ')
-b=input('ENTER THE NAME OF THE SECOND PARTNER  :  ')
-q=int(input('ENTER THE NO. OF MONTHS THE PARTNERSHIP LASTED  :  '))
-i=int(input('ENTER THE AMOUNT OF PROFIT // LOSS MADE BY THE FIRM  :  '))
-h=input('SPECIFY IF THE FIRM MADE A LOSS//PROFIT')
-if h == 'profit'or'PROFIT':
-    print('FIRST ENTRY ON CREDIT SIDE :  by profit & loss A/C(profit) // ', i)
+# THIS IS AN AUTOMATION PROGRAM FOR THE ENTRIES OF PARTNERSHIP FIRM.
+a = input('ENTER THE NAME OF THE FIRST PARTNER  :  ')
+b = input('ENTER THE NAME OF THE SECOND PARTNER  :  ')
+c = int(input('ENTER THE AMOUNT OF PROFIT // LOSS MADE BY THE FIRM  :  '))
+h = input('SPECIFY IF THE FIRM MADE A LOSS//PROFIT')
+if h == 'profit' or 'PROFIT':
+    print('FIRST ENTRY ON CREDIT SIDE :  by profit & loss A/C(profit) // ', c)
     if h == 'loss':
-        print('FIRST ENTRY ON CREDIT SIDE :  by profit & loss A/C(profit) // ', i)
-w=int(input('ENTER THE CAPITAL PRESENTED BY THE FIRST PARTNER  :  '))
-e=int(input('ENTER THE CAPITAL PRESENTED BY THE SECOND PARTNER  :  '))
-m=(input('SPECIFY IF THERE IS A PARTNERSHIP DEED PRESENT (yes/no) :  '))
-if m == 'yes'or'YES':
-    ba=int(input('PLEASE ENTER THE INTEREST ON CAPITAL AS PER PARTNERSHIP DEED'))
-    #ioc for the first partner.
-    print('This is the interest on drawing for ',a )
-    hj=(100/int(ba)+int(w))
+        print('FIRST ENTRY ON CREDIT SIDE :  by profit & loss A/C(profit) // ', c)
+i = int(input('ENTER THE AMOUNT WITHDRAWN BY THE FIRST PARTNER '))
+h = int(input('ENTER THE AMOUNT WITHDRAWN BY THE SECOND PARTNER '))
+k = int(input('enter the interest percentage on drawings as per the partnership deed(%)'))
+
+w = int(input('ENTER THE CAPITAL PRESENTED BY THE FIRST PARTNER  :  '))
+e = int(input('ENTER THE CAPITAL PRESENTED BY THE SECOND PARTNER  :  '))
+m = (input('SPECIFY IF THERE IS A PARTNERSHIP DEED PRESENT (yes/no) :  '))
+if m == 'yes' or 'YES':
+    ba = int(input('PLEASE ENTER THE INTEREST ON CAPITAL AS PER PARTNERSHIP DEED'))
+    # ioc for the first partner.
+    print('This is the interest on drawing for ', a)
+    hj = (100 / int(ba) + int(w))
     print(hj)
+
