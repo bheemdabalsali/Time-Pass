@@ -1,38 +1,30 @@
 # MY NAME A JEFF
-
 a = input('ENTER THE NAME OF THE FIRST PARTNER  :  ')
-
 b = input('ENTER THE NAME OF THE SECOND PARTNER  :  ')
-
 c = int(input('ENTER THE AMOUNT OF PROFIT // LOSS MADE BY THE FIRM  :  '))
-
-h = input('SPECIFY IF THE FIRM MADE A LOSS//PROFIT')
-
-if h == 'profit' or 'PROFIT':
+d = input('SPECIFY IF THE FIRM MADE A LOSS//PROFIT')
+if d == 'profit' or 'PROFIT':
     print('FIRST ENTRY ON CREDIT SIDE :  by profit & loss A/C(profit) // ', c)
-    if h == 'loss':
+    if d == 'loss':
         print('FIRST ENTRY ON CREDIT SIDE :  by profit & loss A/C(profit) // ', c)
-
-w = int(input('ENTER THE CAPITAL PRESENTED BY THE FIRST PARTNER  :  '))
-
-e = int(input('ENTER THE CAPITAL PRESENTED BY THE SECOND PARTNER  :  '))
-
-m = (input('SPECIFY IF THERE IS A PARTNERSHIP DEED PRESENT (yes/no) :  '))
-
-if m == 'yes' or 'YES':
-    ba = int(input('PLEASE ENTER THE INTEREST ON CAPITAL AS PER PARTNERSHIP DEED'))
+e = int(input('ENTER THE CAPITAL PRESENTED BY THE FIRST PARTNER  :  '))
+f = int(input('ENTER THE CAPITAL PRESENTED BY THE SECOND PARTNER  :  '))
+g = (input('SPECIFY IF THERE IS A PARTNERSHIP DEED PRESENT (yes/no) :  '))
+if g == 'yes' or 'YES':
+    ba = int(input('PLEASE ENTER THE INTEREST ON CAPITAL AS GIVEN'))
     # ioc for the first partner.
+    hj = (100 / int(ba) + int(e))
     print('This is the interest on drawing for ', a)
-    hj = (100 / int(ba) + int(w))
     print(hj)
-i = int(input('ENTER THE AMOUNT WITHDRAWN BY THE FIRST PARTNER '))
+    #ioc for the second partner.
+    ij = (100 / int(ba) + int(f))
+    print('This is the interest on drawing for ', b)
+    print(ij)
+    if g == 'no' or  'NO'
 
-h = int(input('ENTER THE AMOUNT WITHDRAWN BY THE SECOND PARTNER '))
-
-k = int(input('enter the interest percentage on drawings as per the partnership deed(%)'))
-
-i %= k
-print('this is the interest on drawings for the first partner')
-
-h %= k
-print('this is the interest on drawings for the 
+h = int(input('ENTER THE AMOUNT WITHDRAWN BY THE FIRST PARTNER '))
+i = int(input('ENTER THE AMOUNT WITHDRAWN BY THE SECOND PARTNER '))
+j = int(input('enter the interest percentage on drawings as per the partnership deed(%)'))
+i %= print('this is the interest on drawings for the first partner')
+h %= j
+print('this is the interest on drawings for the second partner')
